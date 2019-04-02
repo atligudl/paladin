@@ -1,0 +1,115 @@
+body {
+	background: #f0f0f0;
+	color: #555;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 120px;
+	font-family: 'Open Sans';
+}
+
+header {
+	background: #333;
+	height: 100px;
+}
+
+header img {
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+.hero {
+	display: flex;
+	max-width: 100%;
+	border-bottom: 5px solid #fff;
+}
+
+.hero .band {
+	width: 60%;
+	padding-top: 30%;
+	background-image: url(band.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	border-right: 5px solid #fff;
+}
+
+.hero .artwork {
+	width: 40%;
+	padding-top: 30%;
+	background-image: url(artwork.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+.columns {
+	display: flex;
+}
+
+.left {
+	width: 50%;
+	padding-top: 30px;
+	padding-right: 60px;
+}
+
+.right {
+	display: flex;
+	width: 50%;
+	margin-top: 60px;
+	padding-left: 80px;
+	border-left: 1px solid #ccc;
+}
+
+.right-left {
+	width: 50%;
+	border-right: 3px solid #fff;
+}
+
+.right-right {
+	width: 50%;
+}
+
+.bio-quote {
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+
+hr {
+	color: #aaa;
+	margin-bottom: 30px;
+}
+
+.video-wrapper {
+	display: flex;
+	align-items: center;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.kirkja {
+	margin-bottom: 30px;
+}
+
+.videos {
+	display: flex;
+	padding-top: 100px;
+}
+
+iframe {
+	border: 1px solid #f0f0f0;
+}
